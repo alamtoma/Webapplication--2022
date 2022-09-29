@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.flex >  {
+  max-width: 20px;
+}
+
+.flex > div {
+  border: 5px solid rgb(34, 105, 25);
+  padding: 10px;
+}
